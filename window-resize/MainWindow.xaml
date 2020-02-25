@@ -5,18 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="window_resize.MainWindow"
         Name="MainWindowControl"
-        MinWidth="300"
         MinHeight="300"
-        Height="300"
-        WindowStartupLocation="CenterScreen"
-        Width="400">
-  <Grid Name="OverallGrid" RowDefinitions="*, Auto, Auto" >
-     <Grid Background="LightGray"
-           Grid.Row="0"/>
-    <GridSplitter Grid.Row="1"
-                  Background="Gray"/>
-    <Grid Grid.Row="2"
-          Background="Black">
-    </Grid>
-  </Grid>
+        Height="400">
+    Hi, mom!
 </Window>
